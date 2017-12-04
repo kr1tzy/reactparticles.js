@@ -1,8 +1,10 @@
 {
   "name": "reactparticles.js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Independently configurable React component based on vincentgarreau's particles.js",
   "main": "lib/Particles.js",
+  "keywords": ["react", "particles", "particles.js"],
+  "author": "@kr1tzb1tz",
   "repository": {
     "type": "git",
     "url": "https://github.com/kr1tzb1tz/reactparticles.js.git"
