@@ -1,9 +1,9 @@
 ReactParticles.js
 ===============
 
-### A reusable, independently configurable React component based on [particles.js](http://vincentgarreau.com/particles.js/) by [vincentgarreau](https://github.com/VincentGarreau).
+### Independently configurable React component based on [particles.js](http://vincentgarreau.com/particles.js/) by [vincentgarreau](https://github.com/VincentGarreau).
 
-![demo_reactparticles](references/reactparticles.gif)
+![reactparticles_gif](references/reactparticles.gif)
 
 ## Overview
 Plug-and-play into existing React projects using the same downloadable .json configuration as the original [particles.js](http://vincentgarreau.com/particles.js/). Multiple components can be added to the same component - or across many - and can be configured independently using seperate .json files.
@@ -140,14 +140,14 @@ yarn start
 
 ### Result:
 
-![demo_create-react-app](references/create-react-app-1.gif)
+![create-react-app-2_gif](references/create-react-app-1.gif)
 
-### Now for a config file
+### Adding a config file
 - Create and download a config file from [here](http://vincentgarreau.com/particles.js/) or use the .json example in the _Configuration Files_ section below.
 
 - Create a test-particles.json file in your public folder: 
 
-<img src="references/cra-structure.png" width="300px"/>
+<img src="references/cra-structure.png" width="200px"/>
 
 - Add your configuration json into the file and save
 
@@ -159,7 +159,7 @@ yarn start
 
 ### Save and view the results!
 
-![demo_create-react-app-2](references/create-react-app-2.gif)
+![create-react-app-2_gif](references/create-react-app-2.gif)
 
 ## Configuration Files
 
