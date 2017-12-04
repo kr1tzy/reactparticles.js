@@ -1,0 +1,30 @@
+{
+  "name": "reactparticles.js",
+  "version": "1.0.5",
+  "description": "Independently configurable React component based on vincentgarreau's particles.js",
+  "main": "lib/Particles.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kr1tzb1tz/reactparticles.js.git"
+  },
+  "scripts": {
+    "test": "echo \"No test file specified\" && exit 1",
+    "build": "webpack",
+    "transpile": "babel --plugins transform-react-jsx ./src/Particles.js --presets babel-preset-es2015 --out-file lib/Particles.js"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "particles.js": "^2.0.0",
+    "webpack": "^3.9.1"
+  }
+}
