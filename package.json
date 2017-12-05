@@ -1,6 +1,6 @@
 {
   "name": "reactparticles.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Independently configurable React component based on vincentgarreau's particles.js",
   "main": "lib/Particles.js",
   "keywords": ["react", "particles", "particles.js"],

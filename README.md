@@ -303,8 +303,11 @@ yarn start
 
 ### Todo
 
+- Pass the config as a prop or a factory instead of fetching for such a small .json.
+- Build components around a class instead of id for composibility of components
+- Importing the library causes the underlying particles lib to appear in global scope. Fix if possible. Might have to fork particles.js
 - More control over responsiveness
-- Error handling for no id
+- Build homepage
 
 ---
 
