@@ -1,6 +1,6 @@
 {
   "name": "reactparticles.js",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Independently configurable React component based on vincentgarreau's particles.js",
   "main": "lib/Particles.js",
   "keywords": ["react", "particles", "particles.js"],
@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "particles.js": "^2.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
