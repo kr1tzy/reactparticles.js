@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import 'particles.js/particles';  
 const particlesJS = window.particlesJS; 
 
@@ -62,7 +61,7 @@ export default class Particles extends Component {
       {
         "particles": {
           "number": {
-            "value": 100,
+            "value": 50,
             "density": {
               "enable": false
             }

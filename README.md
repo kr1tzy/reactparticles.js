@@ -297,17 +297,25 @@ yarn start
 
 - You can create and downloaded your config files from [the particle.js site](http://vincentgarreau.com/particles.js/). Customize to your liking and click the _download current config (json)_ button.
 
+
+## Todo
+
+### Inside ReactParticles.js
+
+- Pass the config as a prop or factory instead of fetching such a small JSON file.
+- Merge original particles.js into this project to lose the dependency and complete the list below.
+- Build homepage
+
+### Inside Particles.js 
+
+- Build components around a class instead of id for component composability
+- Refactor so the Particles.js library doesn't appear in global scope. 
+- More control over responsiveness
+
+
 ## Acknowledgements
 
  [Vincentgarreau](https://github.com/VincentGarreau) for the original [particles.js](http://vincentgarreau.com/particles.js/).
-
-### Todo
-
-- Pass the config as a prop or a factory instead of fetching for such a small .json.
-- Build components around a class instead of id for composibility of components
-- Importing the library causes the underlying particles lib to appear in global scope. Fix if possible. Might have to fork particles.js
-- More control over responsiveness
-- Build homepage
 
 ---
 
