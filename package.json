@@ -1,7 +1,7 @@
 {
   "name": "reactparticles.js",
   "version": "1.1.7",
-  "description": "Independently configurable React component based on vincentgarreau's particles.js",
+  "description": "Independently configurable React component wrapped around vincentgarreau's particles.js",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [

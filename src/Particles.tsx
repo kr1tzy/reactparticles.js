@@ -53,8 +53,9 @@ export default class Particles extends React.Component<Props, State> {
         jsonConfigFile = await fetch(this.props.config);
         particlesConfig = await jsonConfigFile.json();
       } catch (e) {
-        console.error("[ERROR] Couldn't load assigned config file.");
-      }
+        console.error("[ERROR] Couldn't load assigned config file; loading default.");
+        particlesConfig = defaultConfig;
+      } 
 
       // Save the configuration to the component state
       await this.setStateAsync({ configuration: particlesConfig });

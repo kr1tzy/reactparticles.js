@@ -4,49 +4,69 @@
 export default {
   particles: {
     number: {
-      value: 30,
+      value: 50,
       density: {
-        enable: false
+        enable: true,
+        value_area: 800
       }
     },
+    color: {
+      value: "#ffffff"
+    },
     shape: {
-      type: "image",
+      type: "circle",
+      stroke: {
+        width: 0,
+        color: "#000000"
+      },
+      polygon: {
+        nb_sides: 5
+      },
       image: {
-        src:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png",
-        width: 600,
-        height: 400
+        src: "img/github.svg",
+        width: 100,
+        height: 100
+      }
+    },
+    opacity: {
+      value: 0.5,
+      random: false,
+      anim: {
+        enable: false,
+        speed: 1,
+        opacity_min: 0.1,
+        sync: false
       }
     },
     size: {
-      value: 60,
+      value: 3,
       random: true,
       anim: {
         enable: false,
-        speed: 4,
-        size_min: 0.3,
+        speed: 40,
+        size_min: 0.1,
         sync: false
       }
     },
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#fff",
-      opacity: 0.5,
+      color: "#ffffff",
+      opacity: 0.4,
       width: 1
     },
     move: {
       enable: true,
-      speed: 2,
+      speed: 6,
       direction: "none",
-      random: true,
+      random: false,
       straight: false,
       out_mode: "out",
       bounce: false,
       attract: {
         enable: false,
         rotateX: 600,
-        rotateY: 600
+        rotateY: 1200
       }
     }
   },
@@ -54,8 +74,8 @@ export default {
     detect_on: "canvas",
     events: {
       onhover: {
-        enable: false,
-        mode: "grab"
+        enable: true,
+        mode: "repulse"
       },
       onclick: {
         enable: true,
@@ -65,24 +85,24 @@ export default {
     },
     modes: {
       grab: {
-        distance: 0,
+        distance: 400,
         line_linked: {
           opacity: 1
         }
       },
       bubble: {
-        distance: 0,
-        size: 48.72463273808071,
-        duration: 10,
-        opacity: 1,
+        distance: 400,
+        size: 40,
+        duration: 2,
+        opacity: 8,
         speed: 3
       },
       repulse: {
-        distance: 400,
+        distance: 200,
         duration: 0.4
       },
       push: {
-        particles_nb: 1
+        particles_nb: 4
       },
       remove: {
         particles_nb: 2
