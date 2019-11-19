@@ -26,16 +26,6 @@ export default class Particles extends React.Component<Props, State> {
     });
   }
 
-  // Default particles Style
-  particlesStyle = {
-    position: "absolute" as "absolute",
-    display: "block",
-    top: "0",
-    left: "0",
-    height: "100%",
-    width: "100%"
-  };
-
   // Set up the class on mount
   async componentDidMount() {
     // Grab the id; log error if it's not passed
@@ -53,9 +43,11 @@ export default class Particles extends React.Component<Props, State> {
         jsonConfigFile = await fetch(this.props.config);
         particlesConfig = await jsonConfigFile.json();
       } catch (e) {
-        console.error("[ERROR] Couldn't load assigned config file; loading default.");
+        console.error(
+          "[ERROR] Couldn't load assigned config file; loading default."
+        );
         particlesConfig = defaultConfig;
-      } 
+      }
 
       // Save the configuration to the component state
       await this.setStateAsync({ configuration: particlesConfig });
@@ -67,7 +59,7 @@ export default class Particles extends React.Component<Props, State> {
     // Set up the particles style; merges default with what's passed; overrides if a default value is passed
     if (this.props.style) {
       await this.setStateAsync({
-        style: { ...this.particlesStyle, ...this.props.style }
+        style: { ...this.state.style, ...this.props.style }
       });
     }
 
