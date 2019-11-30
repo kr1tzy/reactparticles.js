@@ -1,10 +1,10 @@
 {
   "particles": {
     "number": {
-      "value": 50,
+      "value": 200,
       "density": {
-        "enable": false,
-        "value_area": 100
+        "enable": true,
+        "value_area": 1000
       }
     },
     "color": {
@@ -75,8 +75,8 @@
         "mode": "bubble"
       },
       "onclick": {
-        "enable": false,
-        "mode": "repulse"
+        "enable": true,
+        "mode": "push"
       },
       "resize": true
     },
