@@ -6,15 +6,15 @@ Independently configurable React component wrapped around [particles.js](http://
 
 ## Overview
 
-Plug-and-play into existing React projects using the same downloadable .json configuration as the original [particles.js](http://vincentgarreau.com/particles.js/). Multiple components can be configured independently using seperate .json files.
+Plug-and-play particles into existing React projects using the same downloadable JSON configuration as the original [particles.js](http://vincentgarreau.com/particles.js/). Configure multiple components independently using seperate JSON files.
 
-## Install
+### Install
 
 ```
 npm install reactparticles.js
 ```
 
-## Props
+### Props
 
 | prop      | description                           | type   | required |
 | :-------- | :------------------------------------ | :----- | :------- |
@@ -42,29 +42,24 @@ style: {
 
 - Customize and downloaded your config files from the [particle.js site](http://vincentgarreau.com/particles.js/)
 
-- Place the config file in your public folder and pass the config file path to your component. The path is relative to your index.html. In the example below all of my configurations are in a directory called particles.
+- Place the config file in your public folder and pass the config file path to your component. 
 
 <img src="img/directory-structure.png" width="200px"/>
 
-
 ### Example use
 
-Below I'm overwriting the default width and height and adding a background color and opacity style.
+Below I'm overwriting the default style width and height and adding a background color and opacity.
 
 ```tsx
-  <Particles
-    id="config-1"
-    config="particles/config-1.json"
-    style={{
-      width: "50%",
-      height: "50%",
-      backgroundColor: "green",
-      opacity: "0.5"
-    }}
-    className="particles-class-name"
-  />
+<Particles
+  id="config-1"
+  config="particles/config-1.json"
+  style={{
+    width: "50%",
+    height: "50%",
+    backgroundColor: "green",
+    opacity: "0.5"
+  }}
+  className="particles-class-name"
+/>
 ```
-
-## Acknowledgements
-
-[Vincentgarreau](https://github.com/VincentGarreau) for the original [particles.js](http://vincentgarreau.com/particles.js/).
