@@ -1,4 +1,4 @@
-# [ReactParticles.js](https://kr1tzb1tz.github.io/ReactParticles.js/)
+# [ReactParticles.js](https://kr1tzy.github.io/reactparticles.js/)
 
 Independently configurable React component wrapped around [particles.js](http://vincentgarreau.com/particles.js/) by [vincentgarreau](https://github.com/VincentGarreau).
 
