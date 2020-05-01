@@ -19,7 +19,7 @@
     "test": "echo '[*] No tests defined'"
   },
   "dependencies": {
-    "tsparticles": "^1.12.11"
+    "tsparticles": "^1.13.6"
   },
   "devDependencies": {
     "@types/react": "^16.9.11",
