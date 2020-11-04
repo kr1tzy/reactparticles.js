@@ -9,10 +9,10 @@
     "particles",
     "particles.js"
   ],
-  "author": "@kr1tzb1tz",
+  "author": "@kr1tzy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kr1tzb1tz/reactparticles.js.git"
+    "url": "https://github.com/kr1tzy/ReactParticles.js.git"
   },
   "scripts": {
     "build": "rm -rf ./lib && tsc",
