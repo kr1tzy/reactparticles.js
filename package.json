@@ -1,7 +1,7 @@
 {
   "name": "reactparticles.js",
   "version": "2.0.0",
-  "description": "Independently configurable React component wrapped around vincentgarreau's particles.js",
+  "description": "Independently configurable React component for particles.js",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
@@ -12,7 +12,7 @@
   "author": "@kr1tzy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kr1tzy/ReactParticles.js.git"
+    "url": "https://github.com/kr1tzy/reactparticles.js.git"
   },
   "scripts": {
     "build": "rm -rf ./lib && tsc",
