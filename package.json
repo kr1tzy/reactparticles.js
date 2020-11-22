@@ -1,13 +1,15 @@
 {
   "name": "reactparticles.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Independently configurable React component for particles.js",
   "license": "MIT",
   "main": "lib/index.js",
   "keywords": [
-    "react",
+    "react-particles",
+		"react particles",
+    "particles.js",
     "particles",
-    "particles.js"
+    "react"
   ],
   "author": "@kr1tzy",
   "repository": {
