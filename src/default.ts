@@ -1,15 +1,14 @@
 /*
  *   @desc Default configuration for particles if one isn't provided as a prop.
  */
-import type { IOptions } from "tsparticles/dist/Interfaces/Options/IOptions";
-import type { RecursivePartial } from "tsparticles/dist/Types/RecursivePartial";
-import { MoveDirection } from "tsparticles/dist/Enums/MoveDirection";
-import { OutMode } from "tsparticles/dist/Enums/OutMode";
-import { InteractivityDetect } from "tsparticles/dist/Enums/InteractivityDetect";
-import { HoverMode } from "tsparticles/dist/Enums/Modes/HoverMode";
-import { ClickMode } from "tsparticles/dist/Enums/Modes/ClickMode";
+import type { ISourceOptions } from "tsparticles";
+import { MoveDirection } from "tsparticles";
+import { OutMode } from "tsparticles";
+import { InteractivityDetect } from "tsparticles";
+import { HoverMode } from "tsparticles";
+import { ClickMode } from "tsparticles";
 
-const defaultOptions: RecursivePartial<IOptions> = {
+const defaultOptions: ISourceOptions = {
 	particles: {
 		number: {
 			value: 50,

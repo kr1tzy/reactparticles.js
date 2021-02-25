@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Props, State } from "../index";
 import defaultConfig from "./default";
-import { tsParticles } from "tsparticles/dist/index";
+import { tsParticles } from "tsparticles";
 
 /*
  * @desc Particles class
@@ -31,7 +31,7 @@ export default class Particles extends React.Component<Props, State> {
 		// Grab the id; log error if it's not passed
 		let id: any;
 		if (this.props.id) {
-			id = "particles-js-" + this.props.id;
+			id = "tsparticles-" + this.props.id;
 		} else {
 			console.error("[ERROR] No 'id' prop found in <Particles/> component.");
 		}
@@ -70,7 +70,7 @@ export default class Particles extends React.Component<Props, State> {
 	render() {
 		return (
 			<div
-				id={ "particles-js-" + this.props.id }
+				id={ "tsparticles-" + this.props.id }
 				style={ this.state.style }
 				className={ this.props.className ? this.props.className : "" }
 			></div>
