@@ -4,7 +4,7 @@ import defaultConfig from "./default";
 import { tsParticles } from "tsparticles/dist/index";
 
 /*
- * @desc ReactParticles.js class
+ * @desc Particles class
  */
 export default class Particles extends React.Component<Props, State> {
 	// Initial state is the default style; style can be overridden

@@ -1,12 +1,10 @@
-# [ReactParticles.js](https://kr1tzy.github.io/ReactParticles.js/)
+# [reactparticles.js](https://kr1tzy.github.io/reactparticles.js/)
 
-Independently configurable React component wrapped around [tsParticles](https://particles.matteobruni.it/) by [matteobruni](https://github.com/matteobruni).
-
-![reactparticles_gif](img/reactparticles.gif)
+Independently configurable React component for [tsParticles](https://particles.js.org/).
 
 ## Overview
 
-Plug-and-play particles into existing React projects using the same downloadable JSON configuration as the original [tsParticles](https://particles.matteobruni.it/). Configure multiple components independently using seperate JSON files.
+Plug-and-play particles into existing React projects using the same downloadable JSON configuration as the original [tsParticles](https://particles.js.org/samples/). Configure multiple components independently using seperate JSON files.
 
 ### Install
 
@@ -40,7 +38,7 @@ style: {
 
 ### Configuration
 
-- Customize and downloaded your config files from the [tsParticle site](https://particles.matteobruni.it/)
+- Customize and downloaded your config files from the [tsParticle site](https://particles.js.org/samples/)
 
 - Place the config file in your public folder and pass the config file path to your component. 
 
